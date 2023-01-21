@@ -40,7 +40,7 @@ class Index extends React.Component {
                     <Col md={4}>
                       <h2>Programming</h2>
                       <p>
-                      I started getting interested in Big Data Analytics and Programming when I was chosen as a consultant in the field. I have taken formal coursework. I am also close to finishing a Bachelors in CS. I aim to further develop my analysis and programming capabilities in the foreseeable future.
+                      I started getting interested in Big Data Analytics and Programming when I was chosen as a consultant in the field. I have taken formal coursework. I am also close to finishing a Bachelors in CS. I aim to further develop my analysis and programming capabilities.
                       </p>
                       <p>
                         <Button className="button1" href="/about">
