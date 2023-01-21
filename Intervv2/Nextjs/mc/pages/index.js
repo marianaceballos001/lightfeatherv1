@@ -12,7 +12,8 @@ class Index extends React.Component {
             <Row>
               <Col className="image-wrapper col-md-6 col-lg-5">
                 <div className="hero-section mt-5">
-                  <img className="image" src="/images/MCLogoV2.png" />
+  
+                  <img className="image" src="/images/MCLogoV2.png" layout="responsive" />
                 </div>
               </Col>
               <Col className="hero-welcome-wrapper col-md-6 col-lg-7">
@@ -39,7 +40,7 @@ class Index extends React.Component {
                     <Col md={4}>
                       <h2>Programming</h2>
                       <p>
-                      I started getting interested in Big Data Analytics and Programming when I was chosen as a consultant in the field. I have taken formal coursework. I am close to finishing a Bachelors in CS and I am applying to MS programs this semester.
+                      I started getting interested in Big Data Analytics and Programming when I was chosen as a consultant in the field. I have taken formal coursework. I am also close to finishing a Bachelors in CS. I aim to further develop my analysis and programming capabilities in the foreseeable future.
                       </p>
                       <p>
                         <Button className="button1" href="/about">
@@ -53,7 +54,7 @@ class Index extends React.Component {
                     <Col md={4}>
                       <h2>Data Analysis/Science</h2>
                       <p>
-                      My background has been focused on solving analytical problems in academia and consulting. Engineering degrees train you as a critical thinker and problem solver. I am applying those skills in the practical field of Analytics, with a focus on a more coding-intensive role.
+                      My background has been focused on solving analytical problems in academia and consulting. Engineering degrees train you as a critical thinker and problem solver. I am applying those skills in the practical field of Analytics, making use of my CS background.
                       </p>
                       <Button className="button1" href="/data">
                         Data Sc
