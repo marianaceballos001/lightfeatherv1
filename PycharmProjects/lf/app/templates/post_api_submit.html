@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container col-md-4" style="margin: 5rem 0 0 15rem">
+    <form method="post">
+        <h5 class="mb-3">Sign In</h5>
+
+        {{ form.hidden_tag() }}
+        {{ form.id(size=50, placeholder='id', class_ ='form-control') }}<br>
+        {{ form.firstName(size=50, placeholder='firstName', class_ ='form-control') }}<br>
+        {{ form.lastName(size=50, placeholder='lastName', class_ ='form-control') }}<br>
+
+        {{ form.email(size=50, placeholder='email', class_='form-control') }}<br>
+        {% for error in form.email.errors %} <span style="color:red">{{ error }}</span>{% endfor %}
+
+        {{ form.phoneNumber(size=50, placeholder='phoneNumber', class_='form-control') }}<br>
+        {{ form.supervisor(size=50, placeholder='supervisor', class_='form-control') }}<br>
+
+        {{ form.submit(class_='btn btn-warning')}}
+    </form>
+</div>
+{% endblock %}

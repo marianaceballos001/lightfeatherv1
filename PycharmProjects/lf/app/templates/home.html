@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container col-md-4" style="margin: 5rem 0 0 15rem">
+    <div>
+        <ul>
+            <li>1. Put Request can be done via the following button</li>
+            <li>2. I used dynamodb, python and aws as requested</li>
+            <li>3. I will share a git, the code runs, but has not been deployed</li>
+            <li>4. Some ideas on how I would query the get are in the getitem file the file can be queried with python
+                getitem.py via the console
+            </li>
+            <li>5. Athena can also be used to query dynamodb and is more effective than boto3, but the information would not be printed to the console.
+            </li>
+
+            <li>6. Could not finish everything I wanted to do</li>
+            <li>7. Thank you for using your valuable time, to review this app</li>
+        </ul>
+        <p class="lead"><a class="btn btn-warning btn-lg" href="{{ url_for('put_api') }}" role="button">Put Request</a>
+        </p>
+    </div>
+</div>
+{% endblock %}
